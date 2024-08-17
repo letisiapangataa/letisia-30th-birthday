@@ -9,9 +9,26 @@ body {
   color: black;
 }
 
+.bday-txt {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.3em;
+  padding-bottom: 1em;
+}
+
+.bday-link {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+
 .home {
   height: 100vh;
   position: relative;
+  background-image: url(https://res.cloudinary.com/louiy9obu/image/upload/v1661408603/DSC04795_z7r1us.jpg);
+  background-position: 20% 40%;
+  color: #fff;
 }
 video {
   position: absolute;
@@ -21,7 +38,6 @@ video {
 }
 .home-content {
   position: relative;
-  padding-top: 150px;
   text-align: center;
 }
 h1 {
@@ -31,7 +47,6 @@ h1 {
 }
 
 .home p {
-  font-size: clamp(25px, 4vw, 40px);
   margin-top: 10px;
 }
 
@@ -44,4 +59,9 @@ h1 {
   margin: 50px auto 0;
   padding: 12px 20px;
   cursor: pointer;
+}
+
+.bday-logo {
+  padding-top: 5em;
+  width: 50%;
 }
