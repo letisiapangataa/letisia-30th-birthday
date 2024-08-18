@@ -6,15 +6,13 @@ export default function Information() {
     
     <div className="home-rio">
       <div className="home-content">
-        <h2>This will be such a lovely trip to celebrate with you girls and to just 
-            <br></br>have a good time and catch up with each other.</h2>
-        <p></p><p></p>
-        <h2>Life is too short and we'll never know if we'll have this time with each other again, before we find 
-            <br></br>ourselves married (Sita :)), having kids, living far away from each other or if life just gets in the way. </h2>
-        
-        <p></p><p></p>
-        <h2>We don't know what's to come, but we can make this one week an unforgettable one.</h2>
-        <Link href="/">
+      <img className="bday-logo-loc" src="https://res.cloudinary.com/louiy9obu/image/upload/v1723973212/Letisia_s_11_mjjril.png"></img>
+      <div className="bday-txt-loc">
+        11th January 2025 - 18th January 2025
+      </div>
+
+        <Link href="/information">
+        <button className='more-information'>TRIP INFORMATION</button>
         </Link>
       </div>
     </div>

@@ -12,7 +12,7 @@ body {
 .bday-txt {
   font-size: 1.2em;
   color: white;
-  line-height: 1.3em;
+  line-height: 1.65em;
   padding-bottom: 1em;
 }
 
@@ -46,22 +46,79 @@ h1 {
   line-height: 1.1;
 }
 
-.home p {
-  margin-top: 10px;
+.bday-logo {
+  padding-top: 4.7em;
+  width: 50%;
 }
 
-.home-content button {
-  display: block;
+
+.unlock-location {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
   font-size: clamp(14px, 1.5vw, 18px);
   border: 1px solid #f1f1f1;
   border-radius: 5px;
   background: transparent;
-  margin: 50px auto 0;
-  padding: 12px 20px;
   cursor: pointer;
 }
 
-.bday-logo {
-  padding-top: 5em;
+.btn-main {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: clamp(14px, 1.5vw, 18px);
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  background: transparent;
+  margin-right: 0.5em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.bday-logo-loc {
+  padding-top: 6.3em;
+  padding-bottom: 1em;
   width: 50%;
+}
+
+.bday-txt-loc {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: white;
+  margin-top: -1em;
+}
+
+.more-information {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: white;
+  margin-top: 3.5em;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: clamp(14px, 1.5vw, 18px);
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+.bday-logo-sp {
+  padding-top: 8.5em;
+  margin-bottom: -2em;
+  width: 50%;
+}
+
+.bday-txt-sp {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.65em;
+  margin-bottom: 2.5em;
 }

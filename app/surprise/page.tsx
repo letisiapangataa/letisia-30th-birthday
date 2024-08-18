@@ -5,17 +5,14 @@ export default function Surprise() {
   return (
     
     <div className="home">
-      <video muted loop autoPlay>
-        <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4"></source>
-      </video>
       <div className="home-content">
-        <h1>You Accepted!</h1>
-        <p>We are going to ...</p>
-        <Link href="/location">
-            <button>
-              Unlock Surprise
+      <img className="bday-logo-sp" src="https://res.cloudinary.com/louiy9obu/image/upload/v1723937574/Letisia_s_7_xwcylg.png"></img>
+      <div className="bday-txt-sp">Thank you for accepting the invitation to celebrate my birthday!<br></br>Unlock the <b>secret</b> location below. </div>
+      <Link className="bday-txt-sp" href="/location">
+            <button className='unlock-location'>
+              Unlock Secret Location
             </button>
-        </Link>
+      </Link>
       </div>
     </div>
   );
