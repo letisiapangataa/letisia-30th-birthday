@@ -8,12 +8,12 @@ export default function Information() {
     <div className="trip-information">
       <div className="home-content">
       <p className='info-logo'>
-      <Link href="/location">
+      <Link href="/information">
       <Image src="/assets/trip_deets_logo.png" alt='Trip Information' width={800} height={545} />
       </Link>
       </p>
       <div className="trip-info-txt">
-        DATES : 11th January 2025 - 18th January 2025
+        ITINERARY
         <p></p>
       </div>
 
@@ -24,7 +24,7 @@ export default function Information() {
 
       <div className="trip-info-txt-p-p">
         My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era of life. 
-        <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible along the way.
+        <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible.
       </div>
 
         <Link href="/information/flights">

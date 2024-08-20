@@ -16,6 +16,10 @@ export default function Surprise() {
               Unlock Secret Location
             </button>
       </Link>
+      <Link href="/">
+        <p></p>
+        <button className='more-information-btn'>GO BACK</button>
+        </Link>
       </div>
     </div>
   );

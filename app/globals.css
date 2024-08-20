@@ -107,6 +107,22 @@ h1 {
   cursor: pointer;
 }
 
+.more-information-btn {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.607);
+  margin-top: 3.5em;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: clamp(14px, 1.5vw, 18px);
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+}
+
 
 .bday-logo-sp {
   padding-top: 8.5em;
@@ -118,4 +134,54 @@ h1 {
   color: white;
   line-height: 1.65em;
   margin-bottom: 2.5em;
+}
+
+.trip-information {
+  background-color: #ffe600;
+  width: 100vw;  /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0;     /* Remove default margins */
+  padding: 0;    /* Remove default padding */
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  overflow-x: auto; /* Allow horizontal overflow if needed */
+  overflow-y: auto;
+}
+
+.trip-info-txt {
+  color : #00BF63;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-bottom: 1.5em;
+}
+
+.trip-info-txt-p {
+  color : #00BF63;
+  font-size: 1.3em;
+  font-weight: bold 200;
+  line-height: 1.5em;
+}
+
+.trip-info-txt-p-p {
+  color : #00BF63;
+  font-size: 1.3em;
+  font-weight: bold 200;
+  line-height: 1.5em;
+  padding-top: 1em;
+}
+
+.trip-info-btn {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #00BF63;
+  margin-top: 3.5em;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: clamp(14px, 1.5vw, 18px);
+  border: 1px solid #00BF63;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 1em;
 }
