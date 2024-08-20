@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 export default function Location() {
   return (
@@ -10,7 +11,9 @@ export default function Location() {
         <source src="https://res.cloudinary.com/louiy9obu/video/upload/v1723985740/RIO_Letisia_30th_Birthday-720p_qmlmqe.mp4" type="video/mp4"></source>
       </video>
       <div className="home-content">
-      <img className="bday-logo-loc" src="https://res.cloudinary.com/louiy9obu/image/upload/v1723973212/Letisia_s_11_mjjril.png"></img>
+      <p className='bday-logo-loc'>
+        <Image src="/assets/location_exposed_logo.png" alt='Location Exposed :P' width={867.328} height={620.368} />
+      </p>
       <div className="bday-txt-loc">
         11th January 2025 - 18th January 2025
       </div>

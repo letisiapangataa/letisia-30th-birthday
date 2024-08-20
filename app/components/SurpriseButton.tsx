@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import Surprise from '../surprise/page';
+
+
+const Surprise = "/surprise"; // Example URL
 
 function SurpriseButton({ children }: { children: React.ReactNode }) {
   return (
