@@ -7,6 +7,8 @@
 body {
   font-family: roboto, sans-serif;
   color: black;
+  overflow-x: auto; /* Allow horizontal overflow if needed */
+  overflow-y: auto; 
 }
 
 .bday-txt {
@@ -24,12 +26,14 @@ body {
 }
 
 .home {
-  height: 100vh;
+  height: 100%;
   position: relative;
   background-image: url(https://res.cloudinary.com/louiy9obu/image/upload/v1661408603/DSC04795_z7r1us.jpg);
   background-position: 20% 40%;
   color: #fff;
+  padding-bottom: 10em;
 }
+
 video {
   position: absolute;
   width: 100%;
@@ -39,7 +43,10 @@ video {
 .home-content {
   position: relative;
   text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
 }
+
 h1 {
   font-family: Playfair Display, serif;
   font-size: clamp(45px, 7vw, 130px);
