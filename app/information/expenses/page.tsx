@@ -18,13 +18,33 @@ export default function Information() {
 
       <div className="trip-info-txt-p">
         <p></p>
-        Thank you for joining my 30th celebration ladies!
+        The currency is quite decent and affordable for example :
+        <p></p>1000 NZD = 3,420.22 BRL (25/08/24)
+        <p></p>100 NZD = 342.02 BRL (25/08/24)
       </div>
 
       <div className="trip-info-txt-p-p">
-        My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era of life. 
-        <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible.
+        <p></p>
+        Do use this NZD to BRL Currency Converter if needed for your planning.
+        <p></p><Link href="https://wise.com/gb/currency-converter/nzd-to-brl-rate" target='_blank'>
+                https://wise.com/gb/currency-converter/nzd-to-brl-rate
+              </Link>
       </div>
+
+      <div className="trip-info-txt-p-p">
+        For your expenses and what your saving up for, it will likely be for:
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        <p></p>Shopping, Food, Drinks (Alcoholic / Non Alcoholic), Tourist Activites (Maybe), 
+        <p></p>Uber (Maybe), Sanitary Needs.
+
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        According to other tourists, uber is super cheap and apple pay is widely used.
+      </div>
+
 
         <Link href="/information/flights">
         <button className='trip-info-btn'>FLIGHTS</button>

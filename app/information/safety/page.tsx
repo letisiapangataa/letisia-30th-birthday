@@ -18,12 +18,48 @@ export default function Information() {
 
       <div className="trip-info-txt-p">
         <p></p>
-        Thank you for joining my 30th celebration ladies!
+        Safety is <b>critically important</b> and is a number one priority and a shared responsibility amongst us.
       </div>
 
       <div className="trip-info-txt-p-p">
-        My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era of life. 
-        <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible.
+        Our trip can be super fun, however as always, having common sense and remaining street smart 
+        <p></p>will keep us safe from being taken advantaged of or anything further than that.
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        We are tourists, and there is a distinct wealth gap between rich and poor in the area. 
+        <p></p>However, the poor areas can be widely misunderstood as they try to survive.
+      </div>
+
+      
+      <div className="trip-info-txt-p-p">
+        <p></p>For general notice, just keep your common sense when you're in a new place 
+        <p></p>with people you don't know.
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        1. Hide your valuables, such as your phone when in public. Be careful holding it out or taking a photo
+        <p></p>As sometimes a local will snatch your phone off you and run.
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        2. Always watch your things when out and about. It is said, vendors or street marketers 
+        <p></p>will try to overwhelm you and sell their goods, while they take your belongings. 
+        <p></p>Be smart, pack little when out and always watch your stuff when relaxing.
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        3. Guard your drinks or liquids, choose a can or bottle, watch when your drink is being made
+        <p></p>especially when purchasing a drink at a street vendor.
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        4. Get a cross body bag or a small bag you can put in front of you to pack your things when
+        <p></p>out and about, so you're always watching your bag from potential pickpocketers.
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        I will post more if needed, otherwise feel free to research more tips and share via IG chat.
       </div>
 
         <Link href="/information/flights">

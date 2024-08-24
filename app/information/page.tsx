@@ -23,7 +23,7 @@ export default function Information() {
       </div>
 
       <div className="trip-info-txt-p-p">
-        My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era of life. 
+        My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era.
         <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible along the way.
       </div>
 

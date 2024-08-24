@@ -19,12 +19,12 @@ export default function Information() {
 
       <div className="trip-info-txt-p">
         <p></p>
-        Thank you for joining my 30th celebration ladies!
+        We're going to be staying at a modern apartment in the heart of Rio De Janeiro, in front of Copacabana (Rio's Iconic Beach).
       </div>
 
       <div className="trip-info-txt-p-p">
-        My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era of life. 
-        <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible.
+        It's super modern, there's an ensuite room (i'll likely will be in that one lmao), another bedroom with a double bed,
+        <p></p>and a living room open double bed couch which is also really neat. Front row to the beach.
       </div>
 
         <Link href="/information/flights">

@@ -19,12 +19,11 @@ export default function Information() {
 
       <div className="trip-info-txt-p">
         <p></p>
-        Thank you for joining my 30th celebration ladies!
+        I plan to purchase the tickets on November 2024 and will let you know any further information via IG Chat.
       </div>
 
       <div className="trip-info-txt-p-p">
-        My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era of life. 
-        <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible.
+
       </div>
 
         <Link href="/information/flights">

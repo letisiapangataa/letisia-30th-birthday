@@ -17,7 +17,7 @@ export default function Location() {
         </Link>
       </p>
       <div className="bday-txt-loc">
-        11th January 2025 - 18th January 2025
+        11th January 2025 - 18th January 2025 (TBC)
       </div>
 
         <Link href="/information">

@@ -18,13 +18,28 @@ export default function Information() {
 
       <div className="trip-info-txt-p">
         <p></p>
-        Thank you for joining my 30th celebration ladies!
+        Prepare your savings for your expenses, apply for leave once flight dates are confirmed, 
+        <p></p>and start learning Portuguese, this is the main language in Brasil.
       </div>
 
       <div className="trip-info-txt-p-p">
-        My end goal is really for all of us to enjoy ourselves before life whisks us away into a new era of life. 
-        <p></p>Let's make this trip an <b>unforgettable</b> one, while prioritising our safety and being responsible.
+        <p></p>
+        As well as that, prepare your cute fits, get your bathing suits, make up, dresses as well as prioritise
+        <p></p>packing light because we may visit the markets right across our place.
       </div>
+
+      <div className="trip-info-txt-p-p">
+        <p></p>
+        Prepare the family in your own time, as they may have their own concerns regarding Rio De Janeiro.
+        <p></p>Learn the history and culture of Rio de Janeiro, Brasil, binge watch YouTube videos of girl trips in Rio. (I probably watched all of it.)
+      </div>
+
+      <div className="trip-info-txt-p-p">
+        <p></p>
+        Watch YouTube videos of girl trips in Rio to get you more comfortable. I probably have watched all of it by now.
+      </div>
+
+
 
         <Link href="/information/flights">
         <button className='trip-info-btn'>FLIGHTS</button>
