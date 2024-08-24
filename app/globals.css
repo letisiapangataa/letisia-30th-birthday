@@ -5,6 +5,8 @@
 }
 
 body {
+  min-height: 100%;
+  min-width: 1200px;
   font-family: roboto, sans-serif;
   color: black;
   overflow-x: auto; /* Allow horizontal overflow if needed */
@@ -36,10 +38,14 @@ body {
 
 video {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 120%;
+  height: 110%;
   object-fit: cover;
+  z-index: -1; /* Ensure the video stays in the background */
 }
+
 .home-content {
   position: relative;
   text-align: center;
@@ -152,6 +158,7 @@ h1 {
   box-sizing: border-box; /* Ensure padding and border are included in the width and height */
   overflow-x: auto; /* Allow horizontal overflow if needed */
   overflow-y: auto;
+  padding-bottom: 10em;
 }
 
 .trip-info-txt {
