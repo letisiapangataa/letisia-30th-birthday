@@ -41,7 +41,7 @@ video {
   top: 0;
   left: 0;
   width: 100%;
-  height: 110%;
+  height: 120%;
   object-fit: cover;
   z-index: -1; /* Ensure the video stays in the background */
 }
@@ -138,7 +138,7 @@ h1 {
 
 
 .bday-logo-sp {
-  padding-top: 8.5em;
+  padding-top: 5.3em;
   margin-bottom: -2em;
 }
 
@@ -198,4 +198,57 @@ h1 {
   background: transparent;
   cursor: pointer;
   margin-right: 1em;
+}
+
+#timer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.timer-container {
+  font-size: 3em;
+}
+
+.timer-container span {
+  white-space: nowrap;
+}
+
+#content {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#content h1 {
+  transform: scale(1.25);
+}
+
+#content.visible {
+  opacity: 1;
+  animation: colorChange 1s ease-in-out 0.5s forwards;
+}
+
+#content.visible h1 {
+  animation: scaleOut 1s ease-in-out 0.5s forwards;
+}
+
+
+@keyframes scaleOut {
+  from {
+    transform: scale(1.25);
+  }
+  to {
+    transform: scale(1);
+  }
 }

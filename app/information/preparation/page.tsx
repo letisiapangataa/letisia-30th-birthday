@@ -31,7 +31,7 @@ export default function Information() {
       <div className="trip-info-txt-p-p">
         <p></p>
         Prepare the family in your own time, as they may have their own concerns regarding Rio De Janeiro.
-        <p></p>Learn the history and culture of Rio de Janeiro, Brasil, binge watch YouTube videos of girl trips in Rio. (I probably watched all of it.)
+        <p></p>Learn the history and culture of Rio de Janeiro, Brasil.
       </div>
 
       <div className="trip-info-txt-p-p">
