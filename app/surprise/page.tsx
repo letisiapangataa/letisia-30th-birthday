@@ -5,52 +5,33 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 export default function Surprise() {
-  const [timeLeft, setTimeLeft] = useState({
-    days: '0 days',
-    hours: '0 hours',
-    minutes: '0 minutes',
-    seconds: '30 seconds', // Start countdown from 30 seconds
-  });
-
+  const [secondsLeft, setSecondsLeft] = useState(30); // Start countdown from 30 seconds
   const [isCountdownFinished, setIsCountdownFinished] = useState(false);
 
   useEffect(() => {
     const countdownDate = new Date().getTime() + 30 * 1000; // Set countdown for 30 seconds from now
 
-    const formatTime = (time: number, string: string): string => {
-      return time === 1 ? `${time} ${string}` : `${time} ${string}s`;
-    };
-
     const startCountdown = () => {
       const now = new Date().getTime();
-      const difference = (countdownDate - now) / 1000;
+      const difference = Math.floor((countdownDate - now) / 1000);
 
-      if (difference < 1) {
+      if (difference <= 0) {
         setIsCountdownFinished(true);
         clearInterval(timerInterval);
       } else {
-        let days = Math.floor(difference / (60 * 60 * 24));
-        let hours = Math.floor((difference % (60 * 60 * 24)) / (60 * 60));
-        let minutes = Math.floor((difference % (60 * 60)) / 60);
-        let seconds = Math.floor(difference % 60);
-
-        setTimeLeft({
-          days: formatTime(days, "day"),
-          hours: formatTime(hours, "hour"),
-          minutes: formatTime(minutes, "minute"),
-          seconds: formatTime(seconds, "second"),
-        });
+        setSecondsLeft(difference);
       }
     };
 
     const timerInterval = setInterval(startCountdown, 1000);
 
-    // Start countdown immediately
-    startCountdown();
-
     // Clean up the interval on component unmount
     return () => clearInterval(timerInterval);
   }, []);
+
+  const formatTime = (time: number, unit: string): string => {
+    return time === 1 ? `${time} ${unit}` : `${time} ${unit}s`;
+  };
 
   return (
     <div className="home">
@@ -63,24 +44,19 @@ export default function Surprise() {
           <br />
           Unlock the <b>secret</b> location below.
         </div>
-        <Link className="bday-txt-sp" href="/location">
-          {!isCountdownFinished ? (
-            <section id="timer" aria-live="polite">
-              <p>This content will be displayed in</p>
-              <div className="timer-container">
-                <span id="days" role="timer">{timeLeft.days}</span>
-                <span id="hours" role="timer">{timeLeft.hours}</span>
-                <span id="minutes" role="timer">{timeLeft.minutes}</span>
-                and
-                <span id="seconds" role="timer">{timeLeft.seconds}</span>
-              </div>
-            </section>
-          ) : (
-            <section id="content" className="visible">
+        {!isCountdownFinished ? (
+          <div className="bday-txt-sp">
+            <span id="seconds" role="timer">
+              Loading in {formatTime(secondsLeft, "second")}
+            </span>
+          </div>
+        ) : (
+          <section id="content" className="visible">
+            <Link className="bday-txt-sp" href="/location">
               <button className="unlock-location">Unlock Secret Location</button>
-            </section>
-          )}
-        </Link>
+            </Link>
+          </section>
+        )}
         <Link href="/">
           <p></p>
           <button className="more-information-btn">GO BACK</button>
